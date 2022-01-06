@@ -77,13 +77,23 @@ body {
       width: 20%;
   }
   .develop-container{
-      padding: 5%;
-      
+      padding: 5%;  
   }
   .side-design{
-    padding: 2%;
+    padding-left: 8%;
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
-    ;
+    background-size: 250px 250px;
   }
+  .global-community img{
+    margin-left: 185px;
+    margin-bottom: 45px;
+}
+  .global-community{ 
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 150px 150px;
+  }
+  
