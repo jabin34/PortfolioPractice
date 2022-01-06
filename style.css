@@ -1,99 +1,110 @@
 body {
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-  }
-  h1 {
-    font-size: 40px;
-  }
-  h2{
-      font-size: 30px;
-  }
-  .orange-color {
-    color: orange;
-  }
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+.orange-color {
+  color: orange;
+}
 
-  .flexible-container {
-    display: flex;
-    margin-bottom: 150px;
-  }
-  .half-width {
-    width: 50%;
-    
-  }
-  .half-width img {
-    width: 60%;
-  }
-  .link-button{
-      text-decoration: none;
-      background-image: linear-gradient(tomato,tomato);
-      padding: 10px 40px;
-      color:white;
-      font-weight: 700;
-      border-radius: 5px;
-      
-  }
-  .text-border{
-      border-left: 5px solid tomato;  
-      padding-left: 15px;
-  }
-  .mission{
-    margin-top: 20px;
-    padding: 5%;
-  }
-  p{
-      color:grey;
-  }
-  .info-text{
-      padding: 10px 0px;
-  }
-  .text-center{
-      text-align: center;
-  }
-  .mission-parent{
-    width:100%;
-  }
-.mission-child{
-    width: 33.3%;
-    padding: 3%;
-    box-shadow: 1px 1px .2 grey;
-    height: auto;
-    border:1px solid rgb(255, 227, 227);
-    margin: 20px;
-    border-radius: 20px;
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
 }
-.mission-child:nth-child(1){
-    background: cornflowerblue;
-    color:white;
+.half-width {
+  width: 50%;
 }
-.mission-child:nth-child(2){
-    background: rgb(156, 109, 37);
-    color:white;
+.half-width img {
+  width: 60%;
 }
-.mission-child:nth-child(3){
-    background: rgb(174, 160, 182);
-    color:white;
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(tomato, tomato);
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
 }
-  .mission-child img{
-      width: 20%;
-  }
-  .develop-container{
-      padding: 5%;  
-  }
-  .side-design{
-    padding-left: 8%;
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 250px 250px;
-  }
-  .global-community img{
-    margin-left: 185px;
-    margin-bottom: 45px;
+.text-border {
+  border-left: 5px solid tomato;
+  padding-left: 15px;
 }
-  .global-community{ 
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 150px 150px;
-  }
-  
+.mission {
+  margin-top: 20px;
+  padding: 5%;
+}
+p {
+  color: grey;
+  line-height: 1.6;
+}
+.info-text {
+  padding: 10px 0px;
+}
+.text-center {
+  text-align: center;
+}
+.mission-parent {
+  width: 100%;
+}
+.mission-child {
+  width: 33.3%;
+  padding: 3%;
+  box-shadow: 1px 1px 0.2 grey;
+  height: auto;
+  border: 1px solid rgb(255, 227, 227);
+  margin: 20px;
+  border-radius: 20px;
+}
+.mission-child p{
+    color:black;
+}
+.mission-child:nth-child(1) {
+  background: #eda981;
+  color: white;
+}
+.mission-child:nth-child(2) {
+  background: rgb(155 181 241);
+  color: white;
+}
+.mission-child:nth-child(3) {
+  background: rgb(174, 160, 182);
+  color: white;
+}
+.mission-child img {
+  width: 20%;
+}
+.develop-container {
+  padding: 0% 5%;
+}
+.side-design {
+  padding-left: 8%;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 250px 250px;
+}
+.global-community img {
+  margin-left: 185px;
+  margin-bottom: 45px;
+}
+.global-community {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 150px 150px;
+}
+
+footer{
+    text-align: center;
+    height: 128px;
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    padding: 20px;
+
+}
